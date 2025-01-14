@@ -3,36 +3,69 @@
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Shweta Tiwari" >
-        <meta name="Description" content="The official website for The Royal Biryani House">
-        <title>The Royal Biryani House</title>
+        <meta name="Description" content="Contact Information for The Royal Biryani House">
+        <title>Contact Us</title>
         <link rel="icon" href="/img/biryani.png" type="image/x-icon">
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <header>
-            <h1>Welcome to the The Royal Biryani House</h1>
+            <h1>Contact Us</h1>
             <nav>
                 <ul>
-                    <li><a href="#about">About <abbr title="The Royal Biryani House">TRBH </abbr></a></li>
-                    <li><a href="#menu">Our Menu</a></li>
-                    <li><a href="Hours.html">Store hours</a></li>
-                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#about">About <abbr title="The Royal Biryani House">TRBH </abbr></a></li>
+                    <li><a href="/#menu">Our Menu</a></li>
+                    <li><a href="Hours.html">Store Hours</a></li>
                 </ul>
             </nav>
             <figure>
-                <img src="img/biryani2.avif" alt="Biryani combo" title="Biryani combo" height="267" width="400">
-                <figcaption>Biryani Combo</figcaption>
+                <img src="img/biryaaniii.avif" alt="Dum Biryani" title="Dum Biryani" height="267" width="400">
+                <figcaption>Dum Biryani</figcaption>
             </figure>
         </header>
 
         <hr>
 
         <main>
-
+            <section>
+            <h2>Our Contact form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send us a Message</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="your name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="your email" required>
+                    </p>
+                    <p>
+                        <label for="message">Your Message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"required></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <section>
+            <h2>Our Location</h2>
+            <address>Lane no.-05, Kanjurmarg(W),Mumbai-76</address>
+            <br>
+            Phone: <a href="+9999999999">999-999-9999</a>
+        </section>
         </main>
 
         <hr>
 
+        <footer>
+            <p>&copy; The Royal Biryani House</p>
+        </footer>
+    </body>
+</html>
         <footer>
             <p>Copyright &copy; The Royal Biryani House</p>
         </footer>
