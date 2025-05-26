@@ -1,19 +1,18 @@
-# Biryani Website
+# The Royal Biryani House
 
-This is a simple HTML website about Biryani.  
-It includes basic information and images related to different types of Biryani.
+This is a simple HTML website named **The Royal Biryani House**.  
 
 ## Files
 
-- `index.html` – Main HTML page
-- `style.css` – CSS styling
-- `images/` – Folder for images
+- `index.html` – Main HTML file
+- `style.css` – CSS file for styling
+- `images/` – Folder containing images used in the site
 
-## Made with
+## Built With
 
 - HTML
 - CSS
 
 ## Purpose
 
-Just a fun and basic project to practice HTML.
+Created as a basic web project to practice HTML by making a food-themed website.
